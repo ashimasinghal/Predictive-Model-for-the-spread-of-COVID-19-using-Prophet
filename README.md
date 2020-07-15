@@ -1,6 +1,5 @@
 # Predictive-Model-for-the-spread-of-COVID-19-using-Prophet
 
-# Predictive-Model-for-the-spread-of-COVID-19-using-Prophet
 ## Predictive Modeling
 Predictive Modeling is a powerful way of adding artificial intelligence in the most subtle way into your application. over the past many years, there has been a huge advancement in this area. Today we depend on predictive modeling in evry area from finance to warehouse storing.
 Time series forecasting is basically the machine learning modeling for Time Series data (years, days, hours…etc.) for predicting future values using Time Series modeling . This helps if your data in serially correlated.
@@ -28,7 +27,7 @@ pip install fbprophet
  df1 = pd.read_csv('train.csv')
  '''
  
-###visualize the data to understand the attributes better
+### visualize the data to understand the attributes better
 I have used plotply in the code but you can go ahead and explore a little bti more bit PowerBI and Tableau, etc.
 
 ![newplot (4)](https://user-images.githubusercontent.com/57868216/87540870-f92fcf00-c6bd-11ea-9aed-6f9fc0e573d3.png)
@@ -36,7 +35,7 @@ I have used plotply in the code but you can go ahead and explore a little bti mo
 ![newplot (6)](https://user-images.githubusercontent.com/57868216/87542540-b7ecee80-c6c0-11ea-983e-2b987e4618fd.png)
 ![newplot (5)](https://user-images.githubusercontent.com/57868216/87542544-b91e1b80-c6c0-11ea-8563-eab69af4ec77.png)
 
-###using Prophet
+### using Prophet
 we needd to columns in the training dataset minimum. 
 1. time-series to compute on
 2. y values to predict
